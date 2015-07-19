@@ -1,0 +1,16 @@
+{
+  "name": "cern-restaurant-api",
+  "version": "0.0.1",
+  "description": "Provides a simple API for fetching the menu in the restaurants (R1 and R2) at CERN.",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Weisz <mail@michael-weisz.de>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "express": "^4.13.1",
+    "request": "^2.58.0"
+  }
+}
